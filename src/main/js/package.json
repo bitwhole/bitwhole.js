@@ -1,0 +1,22 @@
+{
+  "name": "bitwhole.js",
+  "version": "1.0.0",
+  "description": "The base javascript lib of bitwhole project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'no test set.'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitwhole/bitwhole.js.git"
+  },
+  "keywords": [
+    "bitwhole"
+  ],
+  "author": "xukun (ak17)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bitwhole/bitwhole.js/issues"
+  },
+  "homepage": "https://github.com/bitwhole/bitwhole.js#readme"
+}
