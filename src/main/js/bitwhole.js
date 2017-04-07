@@ -515,7 +515,7 @@ JS.Init(this, function(root) {
 	CoreCC.prototype = {
 
 		core : function() {
-			this.builder.core();
+			return this.builder.atts.core();
 		},
 
 		type : function(fn_this, fn_super) {
@@ -609,6 +609,12 @@ JS.Class('Class', function(cc) {
 	}
 
 	cc.type(ClassT, ObjectT);
+	var core = cc.core();
+
+	ClassT.forName = function(name) {
+		var type = core.getType(name);
+		return type.getClass();
+	};
 
 	ClassT.prototype = {
 

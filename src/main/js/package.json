@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/bitwhole/bitwhole.js/issues"
   },
-  "homepage": "https://github.com/bitwhole/bitwhole.js#readme"
+  "homepage": "https://github.com/bitwhole/bitwhole.js#readme",
+  "devDependencies": {
+    "webpack": "^2.3.3"
+  }
 }
